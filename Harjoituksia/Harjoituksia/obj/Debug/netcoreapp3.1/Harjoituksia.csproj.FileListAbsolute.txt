@@ -1,0 +1,13 @@
+C:\Users\leevi.sallantaus\source\repos\Ohjelmistokehittaja\Harjoituksia\Harjoituksia\bin\Debug\netcoreapp3.1\Harjoituksia.exe
+C:\Users\leevi.sallantaus\source\repos\Ohjelmistokehittaja\Harjoituksia\Harjoituksia\bin\Debug\netcoreapp3.1\Harjoituksia.deps.json
+C:\Users\leevi.sallantaus\source\repos\Ohjelmistokehittaja\Harjoituksia\Harjoituksia\bin\Debug\netcoreapp3.1\Harjoituksia.runtimeconfig.json
+C:\Users\leevi.sallantaus\source\repos\Ohjelmistokehittaja\Harjoituksia\Harjoituksia\bin\Debug\netcoreapp3.1\Harjoituksia.runtimeconfig.dev.json
+C:\Users\leevi.sallantaus\source\repos\Ohjelmistokehittaja\Harjoituksia\Harjoituksia\bin\Debug\netcoreapp3.1\Harjoituksia.dll
+C:\Users\leevi.sallantaus\source\repos\Ohjelmistokehittaja\Harjoituksia\Harjoituksia\bin\Debug\netcoreapp3.1\Harjoituksia.pdb
+C:\Users\leevi.sallantaus\source\repos\Ohjelmistokehittaja\Harjoituksia\Harjoituksia\obj\Debug\netcoreapp3.1\Harjoituksia.csprojAssemblyReference.cache
+C:\Users\leevi.sallantaus\source\repos\Ohjelmistokehittaja\Harjoituksia\Harjoituksia\obj\Debug\netcoreapp3.1\Harjoituksia.csproj.CoreCompileInputs.cache
+C:\Users\leevi.sallantaus\source\repos\Ohjelmistokehittaja\Harjoituksia\Harjoituksia\obj\Debug\netcoreapp3.1\Harjoituksia.AssemblyInfoInputs.cache
+C:\Users\leevi.sallantaus\source\repos\Ohjelmistokehittaja\Harjoituksia\Harjoituksia\obj\Debug\netcoreapp3.1\Harjoituksia.AssemblyInfo.cs
+C:\Users\leevi.sallantaus\source\repos\Ohjelmistokehittaja\Harjoituksia\Harjoituksia\obj\Debug\netcoreapp3.1\Harjoituksia.dll
+C:\Users\leevi.sallantaus\source\repos\Ohjelmistokehittaja\Harjoituksia\Harjoituksia\obj\Debug\netcoreapp3.1\Harjoituksia.pdb
+C:\Users\leevi.sallantaus\source\repos\Ohjelmistokehittaja\Harjoituksia\Harjoituksia\obj\Debug\netcoreapp3.1\Harjoituksia.genruntimeconfig.cache

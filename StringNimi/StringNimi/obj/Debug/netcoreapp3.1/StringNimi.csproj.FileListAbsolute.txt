@@ -1,0 +1,13 @@
+C:\Users\leevi.sallantaus\source\repos\Ohjelmistokehittaja\StringNimi\StringNimi\bin\Debug\netcoreapp3.1\StringNimi.exe
+C:\Users\leevi.sallantaus\source\repos\Ohjelmistokehittaja\StringNimi\StringNimi\bin\Debug\netcoreapp3.1\StringNimi.deps.json
+C:\Users\leevi.sallantaus\source\repos\Ohjelmistokehittaja\StringNimi\StringNimi\bin\Debug\netcoreapp3.1\StringNimi.runtimeconfig.json
+C:\Users\leevi.sallantaus\source\repos\Ohjelmistokehittaja\StringNimi\StringNimi\bin\Debug\netcoreapp3.1\StringNimi.runtimeconfig.dev.json
+C:\Users\leevi.sallantaus\source\repos\Ohjelmistokehittaja\StringNimi\StringNimi\bin\Debug\netcoreapp3.1\StringNimi.dll
+C:\Users\leevi.sallantaus\source\repos\Ohjelmistokehittaja\StringNimi\StringNimi\bin\Debug\netcoreapp3.1\StringNimi.pdb
+C:\Users\leevi.sallantaus\source\repos\Ohjelmistokehittaja\StringNimi\StringNimi\obj\Debug\netcoreapp3.1\StringNimi.csprojAssemblyReference.cache
+C:\Users\leevi.sallantaus\source\repos\Ohjelmistokehittaja\StringNimi\StringNimi\obj\Debug\netcoreapp3.1\StringNimi.csproj.CoreCompileInputs.cache
+C:\Users\leevi.sallantaus\source\repos\Ohjelmistokehittaja\StringNimi\StringNimi\obj\Debug\netcoreapp3.1\StringNimi.AssemblyInfoInputs.cache
+C:\Users\leevi.sallantaus\source\repos\Ohjelmistokehittaja\StringNimi\StringNimi\obj\Debug\netcoreapp3.1\StringNimi.AssemblyInfo.cs
+C:\Users\leevi.sallantaus\source\repos\Ohjelmistokehittaja\StringNimi\StringNimi\obj\Debug\netcoreapp3.1\StringNimi.dll
+C:\Users\leevi.sallantaus\source\repos\Ohjelmistokehittaja\StringNimi\StringNimi\obj\Debug\netcoreapp3.1\StringNimi.pdb
+C:\Users\leevi.sallantaus\source\repos\Ohjelmistokehittaja\StringNimi\StringNimi\obj\Debug\netcoreapp3.1\StringNimi.genruntimeconfig.cache
