@@ -153,7 +153,25 @@ namespace Harjoituksia2
             }
 
             //Tehtävä6
-            
+            int Luku13;
+            Console.WriteLine("Syötä bonuspisteesi");
+            Luku13 = Int32.Parse(Console.ReadLine());
+            if (Luku13 > 0 && Luku13 < 4)
+            {
+                Console.WriteLine(Luku13 * 10);
+            }
+            else if (Luku13 > 3 && Luku13 < 7)
+            {
+                Console.WriteLine(Luku13 * 100);
+            }
+            else if (Luku13 > 6 && Luku13 < 10)
+            {
+                Console.WriteLine(Luku13 * 1000);
+            }
+            else
+            {
+                Console.WriteLine("Bonuspisteesi tulee olla väliltä (1-9)");
+            }
         }
 
     }
