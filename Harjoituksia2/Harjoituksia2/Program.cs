@@ -172,6 +172,62 @@ namespace Harjoituksia2
             {
                 Console.WriteLine("Bonuspisteesi tulee olla väliltä (1-9)");
             }
+            
+            //Tehtävä7 kesken
+            int Luku14;
+            Console.WriteLine("Anna luku 0-999");
+            Luku14 = Int32.Parse(Console.ReadLine());
+            switch (Luku14)
+            {
+                case 0:
+                    Console.WriteLine("nolla");
+                break;
+                case 1:
+                    Console.WriteLine("yksi");
+                break;
+                case 2:
+                    Console.WriteLine("kaksi");
+                break;
+                case 3:
+                    Console.WriteLine("kolme");
+                break;
+                case 4:
+                    Console.WriteLine("neljä");
+                break;
+                case 5:
+                    Console.WriteLine("viisi");
+                break;
+                case 6:
+                    Console.WriteLine("kuusi");
+                break;
+                case 7:
+                    Console.WriteLine("seitsemän");
+                break;
+                case 8:
+                    Console.WriteLine("kahdeksan");
+                break;
+                case 9:
+                    Console.WriteLine("yhdeksän");
+                break;
+                case 10:
+                    Console.WriteLine("kymmenen");
+                break;
+                default:
+                    Console.WriteLine("Anna luku 0-999");
+                break;
+                } 
+                if (Luku14.ToString().Length == 2 && Luku14.ToString()[0] != 1)
+                {
+                    Console.WriteLine(Luku14.ToString()[1] + "toista");
+                }
+                else if (Luku14.ToString().Length == 2 && Luku14 > 19)
+                {
+                    Console.WriteLine(Luku14.ToString()[0] + "kymmentä" + Luku14.ToString()[1]);
+                }
+                else if (Luku14.ToString().Length == 3)
+                {
+                    Console.WriteLine(Luku14.ToString()[0] + "sataa" + Luku14.ToString()[1] + "kymmentä" + Luku14.ToString()[2]);
+                }
         }
 
     }

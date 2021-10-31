@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leevi\\Source\\Repos\\Ohjelmistokehittaja\\Harjoituksia2\\Harjoituksia2\\Harjoituksia2.csproj": {}
+    "C:\\Users\\leevi\\source\\repos\\Ohjelmistokehittaja\\Harjoituksia2\\Harjoituksia2\\Harjoituksia2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leevi\\Source\\Repos\\Ohjelmistokehittaja\\Harjoituksia2\\Harjoituksia2\\Harjoituksia2.csproj": {
+    "C:\\Users\\leevi\\source\\repos\\Ohjelmistokehittaja\\Harjoituksia2\\Harjoituksia2\\Harjoituksia2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leevi\\Source\\Repos\\Ohjelmistokehittaja\\Harjoituksia2\\Harjoituksia2\\Harjoituksia2.csproj",
+        "projectUniqueName": "C:\\Users\\leevi\\source\\repos\\Ohjelmistokehittaja\\Harjoituksia2\\Harjoituksia2\\Harjoituksia2.csproj",
         "projectName": "Harjoituksia2",
-        "projectPath": "C:\\Users\\leevi\\Source\\Repos\\Ohjelmistokehittaja\\Harjoituksia2\\Harjoituksia2\\Harjoituksia2.csproj",
+        "projectPath": "C:\\Users\\leevi\\source\\repos\\Ohjelmistokehittaja\\Harjoituksia2\\Harjoituksia2\\Harjoituksia2.csproj",
         "packagesPath": "C:\\Users\\leevi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leevi\\Source\\Repos\\Ohjelmistokehittaja\\Harjoituksia2\\Harjoituksia2\\obj\\",
+        "outputPath": "C:\\Users\\leevi\\source\\repos\\Ohjelmistokehittaja\\Harjoituksia2\\Harjoituksia2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\leevi\\AppData\\Roaming\\NuGet\\NuGet.Config",
