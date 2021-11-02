@@ -173,7 +173,7 @@ namespace Harjoituksia2
                 Console.WriteLine("Bonuspisteesi tulee olla väliltä (1-9)");
             }
             
-            //Tehtävä7 kesken
+            //Tehtävä7
             int Luku14;
             Console.WriteLine("Anna luku 0-999");
             Luku14 = Int32.Parse(Console.ReadLine());
