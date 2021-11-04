@@ -172,63 +172,35 @@ namespace Harjoituksia2
             {
                 Console.WriteLine("Bonuspisteesi tulee olla väliltä (1-9)");
             }
-            
+
             //Tehtävä7
-            int Luku14;
             Console.WriteLine("Anna luku 0-999");
-            Luku14 = Int32.Parse(Console.ReadLine());
-            switch (Luku14)
+            int number = int.Parse(Console.ReadLine());
+            var ones = new[] { "nolla", "yksi", "kaksi", "kolme", "neljä", "viisi", "kuusi", "seitsemän", "kahdeksan", "yhdeksän", "kymmenen", "yksitoista", "kaksitoista", "kolmetoista", "neljätoista", "viisitoista", "kuusitoista", "seitsemäntoista", "kahdeksantoista", "yhdeksäntoista" };
+            var tens = new[] { "nolla", "kymmenen", "kaksikymmentä", "kolmekymmentä", "neljäkymmentä", "viisikymmentä", "kuusikymmentä", "seitsemänkymmentä", "kahdeksankymmentä", "yhdeksänkymmentä" };
+            if (number == 0)
             {
-                case 0:
-                    Console.WriteLine("nolla");
-                break;
-                case 1:
-                    Console.WriteLine("yksi");
-                break;
-                case 2:
-                    Console.WriteLine("kaksi");
-                break;
-                case 3:
-                    Console.WriteLine("kolme");
-                break;
-                case 4:
-                    Console.WriteLine("neljä");
-                break;
-                case 5:
-                    Console.WriteLine("viisi");
-                break;
-                case 6:
-                    Console.WriteLine("kuusi");
-                break;
-                case 7:
-                    Console.WriteLine("seitsemän");
-                break;
-                case 8:
-                    Console.WriteLine("kahdeksan");
-                break;
-                case 9:
-                    Console.WriteLine("yhdeksän");
-                break;
-                case 10:
-                    Console.WriteLine("kymmenen");
-                break;
-                default:
-                    Console.WriteLine("Anna luku 0-999");
-                break;
-                } 
-                if (Luku14.ToString().Length == 2 && Luku14.ToString()[0] != 1)
+                Console.WriteLine("nolla");
+            }
+            string words = "";
+            if ((number / 100) > 0)
+            {
+                words += ones[number / 100] + "sataa ";
+                number %= 100;
+            }
+            if (number > 0)
+            {
+                if (number < 20)
+                    words += ones[number];
+                else
                 {
-                    Console.WriteLine(Luku14.ToString()[1] + "toista");
+                    words += tens[number / 10];
+                    if ((number % 10) > 0)
+                        words += " " + ones[number % 10];
                 }
-                else if (Luku14.ToString().Length == 2 && Luku14 > 19)
-                {
-                    Console.WriteLine(Luku14.ToString()[0] + "kymmentä" + Luku14.ToString()[1]);
-                }
-                else if (Luku14.ToString().Length == 3)
-                {
-                    Console.WriteLine(Luku14.ToString()[0] + "sataa" + Luku14.ToString()[1] + "kymmentä" + Luku14.ToString()[2]);
-                }
+            }
+            Console.WriteLine(words);
         }
+    }
 
     }
-}
