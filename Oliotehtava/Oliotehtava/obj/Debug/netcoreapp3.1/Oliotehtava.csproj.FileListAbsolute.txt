@@ -1,0 +1,14 @@
+C:\Users\leevi\source\repos\Ohjelmistokehittaja\Oliotehtava\Oliotehtava\bin\Debug\netcoreapp3.1\Oliotehtava.exe
+C:\Users\leevi\source\repos\Ohjelmistokehittaja\Oliotehtava\Oliotehtava\bin\Debug\netcoreapp3.1\Oliotehtava.deps.json
+C:\Users\leevi\source\repos\Ohjelmistokehittaja\Oliotehtava\Oliotehtava\bin\Debug\netcoreapp3.1\Oliotehtava.runtimeconfig.json
+C:\Users\leevi\source\repos\Ohjelmistokehittaja\Oliotehtava\Oliotehtava\bin\Debug\netcoreapp3.1\Oliotehtava.runtimeconfig.dev.json
+C:\Users\leevi\source\repos\Ohjelmistokehittaja\Oliotehtava\Oliotehtava\bin\Debug\netcoreapp3.1\Oliotehtava.dll
+C:\Users\leevi\source\repos\Ohjelmistokehittaja\Oliotehtava\Oliotehtava\bin\Debug\netcoreapp3.1\Oliotehtava.pdb
+C:\Users\leevi\source\repos\Ohjelmistokehittaja\Oliotehtava\Oliotehtava\obj\Debug\netcoreapp3.1\Oliotehtava.csproj.AssemblyReference.cache
+C:\Users\leevi\source\repos\Ohjelmistokehittaja\Oliotehtava\Oliotehtava\obj\Debug\netcoreapp3.1\Oliotehtava.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leevi\source\repos\Ohjelmistokehittaja\Oliotehtava\Oliotehtava\obj\Debug\netcoreapp3.1\Oliotehtava.AssemblyInfoInputs.cache
+C:\Users\leevi\source\repos\Ohjelmistokehittaja\Oliotehtava\Oliotehtava\obj\Debug\netcoreapp3.1\Oliotehtava.AssemblyInfo.cs
+C:\Users\leevi\source\repos\Ohjelmistokehittaja\Oliotehtava\Oliotehtava\obj\Debug\netcoreapp3.1\Oliotehtava.csproj.CoreCompileInputs.cache
+C:\Users\leevi\source\repos\Ohjelmistokehittaja\Oliotehtava\Oliotehtava\obj\Debug\netcoreapp3.1\Oliotehtava.dll
+C:\Users\leevi\source\repos\Ohjelmistokehittaja\Oliotehtava\Oliotehtava\obj\Debug\netcoreapp3.1\Oliotehtava.pdb
+C:\Users\leevi\source\repos\Ohjelmistokehittaja\Oliotehtava\Oliotehtava\obj\Debug\netcoreapp3.1\Oliotehtava.genruntimeconfig.cache
