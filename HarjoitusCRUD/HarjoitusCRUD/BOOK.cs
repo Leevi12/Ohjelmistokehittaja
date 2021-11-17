@@ -38,7 +38,7 @@ namespace HarjoitusCRUD
         }
         public DataTable getBooks()
         {
-            MySqlCommand komento = new MySqlCommand("SELECT ID, Book, Author, Number_of_copies From library", yhteys.otaYhteys());
+            MySqlCommand komento = new MySqlCommand("SELECT bid, Book, Author, Number_of_copies From library", yhteys.otaYhteys());
             MySqlDataAdapter adapteri = new MySqlDataAdapter();
             DataTable taulu = new DataTable();
 
