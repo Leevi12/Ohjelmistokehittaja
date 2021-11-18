@@ -35,7 +35,7 @@ namespace HarjoitusCRUD
             this.nocLB = new System.Windows.Forms.Label();
             this.bid = new System.Windows.Forms.TextBox();
             this.bookTB = new System.Windows.Forms.TextBox();
-            this.AuthorTB = new System.Windows.Forms.TextBox();
+            this.authorTB = new System.Windows.Forms.TextBox();
             this.nocTB = new System.Windows.Forms.TextBox();
             this.clearBT = new System.Windows.Forms.Button();
             this.saveBT = new System.Windows.Forms.Button();
@@ -96,12 +96,12 @@ namespace HarjoitusCRUD
             this.bookTB.Size = new System.Drawing.Size(182, 26);
             this.bookTB.TabIndex = 5;
             // 
-            // AuthorTB
+            // authorTB
             // 
-            this.AuthorTB.Location = new System.Drawing.Point(406, 6);
-            this.AuthorTB.Name = "AuthorTB";
-            this.AuthorTB.Size = new System.Drawing.Size(183, 26);
-            this.AuthorTB.TabIndex = 6;
+            this.authorTB.Location = new System.Drawing.Point(406, 6);
+            this.authorTB.Name = "authorTB";
+            this.authorTB.Size = new System.Drawing.Size(183, 26);
+            this.authorTB.TabIndex = 6;
             // 
             // nocTB
             // 
@@ -118,6 +118,7 @@ namespace HarjoitusCRUD
             this.clearBT.TabIndex = 8;
             this.clearBT.Text = "Clear";
             this.clearBT.UseVisualStyleBackColor = true;
+            this.clearBT.Click += new System.EventHandler(this.clearBT_Click);
             // 
             // saveBT
             // 
@@ -127,6 +128,7 @@ namespace HarjoitusCRUD
             this.saveBT.TabIndex = 9;
             this.saveBT.Text = "Save";
             this.saveBT.UseVisualStyleBackColor = true;
+            this.saveBT.Click += new System.EventHandler(this.saveBT_Click);
             // 
             // updateBT
             // 
@@ -136,6 +138,7 @@ namespace HarjoitusCRUD
             this.updateBT.TabIndex = 10;
             this.updateBT.Text = "Update";
             this.updateBT.UseVisualStyleBackColor = true;
+            this.updateBT.Click += new System.EventHandler(this.updateBT_Click);
             // 
             // deleteBT
             // 
@@ -145,6 +148,7 @@ namespace HarjoitusCRUD
             this.deleteBT.TabIndex = 11;
             this.deleteBT.Text = "Delete";
             this.deleteBT.UseVisualStyleBackColor = true;
+            this.deleteBT.Click += new System.EventHandler(this.deleteBT_Click);
             // 
             // bookDG
             // 
@@ -154,21 +158,22 @@ namespace HarjoitusCRUD
             this.bookDG.Name = "bookDG";
             this.bookDG.RowHeadersWidth = 62;
             this.bookDG.RowTemplate.Height = 28;
-            this.bookDG.Size = new System.Drawing.Size(577, 243);
+            this.bookDG.Size = new System.Drawing.Size(1076, 243);
             this.bookDG.TabIndex = 12;
+            this.bookDG.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.bookDG_CellClick);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1130, 450);
             this.Controls.Add(this.bookDG);
             this.Controls.Add(this.deleteBT);
             this.Controls.Add(this.updateBT);
             this.Controls.Add(this.saveBT);
             this.Controls.Add(this.clearBT);
             this.Controls.Add(this.nocTB);
-            this.Controls.Add(this.AuthorTB);
+            this.Controls.Add(this.authorTB);
             this.Controls.Add(this.bookTB);
             this.Controls.Add(this.bid);
             this.Controls.Add(this.nocLB);
@@ -177,7 +182,7 @@ namespace HarjoitusCRUD
             this.Controls.Add(this.idLB);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Library";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.bookDG)).EndInit();
             this.ResumeLayout(false);
@@ -193,7 +198,7 @@ namespace HarjoitusCRUD
         private System.Windows.Forms.Label nocLB;
         private System.Windows.Forms.TextBox bid;
         private System.Windows.Forms.TextBox bookTB;
-        private System.Windows.Forms.TextBox AuthorTB;
+        private System.Windows.Forms.TextBox authorTB;
         private System.Windows.Forms.TextBox nocTB;
         private System.Windows.Forms.Button clearBT;
         private System.Windows.Forms.Button saveBT;

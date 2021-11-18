@@ -30,14 +30,14 @@ namespace HarjoitusCRUD
         {
             bid.Text = "";
             bookTB.Text = "";
-            AuthorTB.Text = "";
+            authorTB.Text = "";
             nocTB.Text = "";
         }
 
         private void saveBT_Click(object sender, EventArgs e)
         {
             String bok = bookTB.Text;
-            String author = AuthorTB.Text;
+            String author = authorTB.Text;
             int noc = Int32.Parse(nocTB.Text);
 
             if (bok.Trim().Equals("") || author.Trim().Equals("") || noc.Equals(""))
@@ -62,7 +62,7 @@ namespace HarjoitusCRUD
         private void updateBT_Click(object sender, EventArgs e)
         {
             String bok = bookTB.Text;
-            String author = AuthorTB.Text;
+            String author = authorTB.Text;
             int noc = Int32.Parse(nocTB.Text);
             int id = Int32.Parse(bid.Text);
 
@@ -89,7 +89,7 @@ namespace HarjoitusCRUD
         {
             bid.Text = bookDG.CurrentRow.Cells[0].Value.ToString();
             bookTB.Text = bookDG.CurrentRow.Cells[1].Value.ToString();
-            AuthorTB.Text = bookDG.CurrentRow.Cells[2].Value.ToString();
+            authorTB.Text = bookDG.CurrentRow.Cells[2].Value.ToString();
             nocTB.Text = bookDG.CurrentRow.Cells[3].Value.ToString();
         }
         private void deleteBT_Click(object sender, EventArgs e)

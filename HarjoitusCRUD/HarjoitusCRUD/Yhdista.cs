@@ -12,9 +12,9 @@ namespace HarjoitusCRUD
     {
         public string yhteyslause()
         {
-            return "datasource=localhost; port=8012; username=root; password=password; database=own_projects; SSL mode = None";
+            return "datasource=localhost; port=3306; username=root; password=; database=own_projects; SSL mode = None";
         }
-        private MySqlConnection yhteys = new MySqlConnection("datasource=localhost; port=3306; username=root password= ; database=own_projects");
+        private MySqlConnection yhteys = new MySqlConnection("datasource=localhost; port=3306; username=root; password=; database=own_projects; SSL mode = None");
         
         public MySqlConnection otaYhteys()
         {
